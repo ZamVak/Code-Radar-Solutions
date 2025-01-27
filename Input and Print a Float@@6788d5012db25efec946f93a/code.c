@@ -3,7 +3,7 @@
 
 int main() {
     float z;
-    scanf("%f",z);
+    scanf("%f",&z);
     printf("%f",z);
     return 0;
 }
