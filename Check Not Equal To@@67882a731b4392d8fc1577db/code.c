@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d%d",&a,&b);
-    a!=b?printf("True"):rintf("False");
+    a!=b?printf("True"):printf("False");
     return 0;
 }
