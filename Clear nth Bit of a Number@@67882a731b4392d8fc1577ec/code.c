@@ -3,6 +3,6 @@
 int main() {
     int n,p;
     scanf("%d%d",&n,&p);
-    printf("%d",((n>>(p+1))<<(p+1)) | (n&((1<<(p+1))-1)));
+    printf("%d",((n>>(p+1))<<(p+1)) | (n&((1<<p)-1)));
     return 0;
 }
