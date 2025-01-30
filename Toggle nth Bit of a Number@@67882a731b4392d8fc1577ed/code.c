@@ -7,7 +7,7 @@ int main() {
     int tBitMask=tBit<<p
     int leftBits=((1<<p)-1)&n;
     int leftComb=leftBits|tBitMask;
-    int rightComb=(n>>(p+1))<<(p+1)
+    int rightComb=(n>>(p+1))<<(p+1);
     printf("%d",rightComb|leftComb);
     return 0;
 }
