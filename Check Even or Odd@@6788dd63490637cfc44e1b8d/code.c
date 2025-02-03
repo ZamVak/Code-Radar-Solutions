@@ -7,7 +7,6 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    printf("%d",n%2);
-    n%2?printf("Even"):printf("Odd");
+    n%2?printf("Odd"):printf("Even");
     return 0;
 }
