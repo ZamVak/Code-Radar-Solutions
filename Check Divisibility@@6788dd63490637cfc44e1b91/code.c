@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    n%5 && n%11?printf("Not Divisible"):printf("Divisible");
+    !(n%5) && !(n%11)?printf("Divisible"):printf("Not Divisible");
     return 0;
 }
