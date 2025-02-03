@@ -6,6 +6,7 @@ char* welcome() {
 
 int main() {
     int m;
+    scanf("%d",&m);
     if(m<60)
     printf("F");
     else if(m>=60 && m<70)
