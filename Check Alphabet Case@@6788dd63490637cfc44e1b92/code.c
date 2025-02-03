@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a;
-    scanf("%d",&a);
+    scanf("%c",&a);
     if(a>65 && a<90)
     printf("Uppercase");
     return 0;
