@@ -8,6 +8,6 @@ int main() {
     int n;
     scanf("%d",&n);
     printf(n%2);
-    n%2?printf("Even"):printf("Odd");
+    //n%2?printf("Even"):printf("Odd");
     return 0;
 }
