@@ -9,5 +9,9 @@ int main() {
     scanf("%c",&a);
     if(a>=65 && a<=90)
     printf("Uppercase");
+    else if(a>=92 && a<=122)
+    printf("Lowercase");
+    else
+    printf("Not an alphabet");
     return 0;
 }
