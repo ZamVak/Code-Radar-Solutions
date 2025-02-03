@@ -10,6 +10,6 @@ int main() {
     if(a+b>c || b+c>a || c+a>b)
     printf("Valid");
     else
-    printf("Not Valid");
+    printf("Inalid");
     return 0;
 }
