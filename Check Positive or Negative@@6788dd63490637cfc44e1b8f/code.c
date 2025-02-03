@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    n<0?printf("Negative"):printf("Positive");
+    n<0?printf("Negative"):n==0?printf("Zero"):printf("Positive");
     return 0;
 }
