@@ -8,13 +8,13 @@ int main() {
     int x,y,z;
     scanf("%d%d%d",&x,&y,&z);
     int h;
-    if(a>b)
-    h=a;
+    if(x>y)
+    h=x;
     else
-    h=b;
+    h=y;
 
-    if(c>h)
-    h=c;
+    if(z>h)
+    h=z;
     printf("%d",h);
     return 0;
 }
