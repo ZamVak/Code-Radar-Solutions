@@ -9,12 +9,12 @@ int main() {
     scanf("%d%d%d",&x,&y,&z);
     int h;
     if(a>b)
-    h=a
+    h=a;
     else
-    h=b
+    h=b;
 
     if(c>h)
-    h=c
-    printf("%d",h)
+    h=c;
+    printf("%d",h);
     return 0;
 }
