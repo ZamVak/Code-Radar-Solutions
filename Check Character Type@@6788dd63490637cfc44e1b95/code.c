@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+//#include <ctype.h>
 
 int main() {
     char c;
@@ -14,7 +14,8 @@ int main() {
         else
         printf("Consonant\n");
     }
-    else if(isdigit(c)){
+    //else if(isdigit(c)){
+    else if(c>=48 && c<=57){
     printf("Digit\n");
     }
     else{
