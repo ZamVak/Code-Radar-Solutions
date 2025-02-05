@@ -7,7 +7,8 @@ int main() {
     if((c>=65 && c<=90) || (c>=97 && c<=122))
     {
         //c=tolower(c);
-        c+=32;
+        if(c>=65 && c<=90)
+            c+=32;
         if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u')
         printf("Vowel\n");
         else
