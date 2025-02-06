@@ -4,10 +4,8 @@ int main() {
     int day;
     scanf("%d",&day);
     switch(day){
-        case 1:printf("Monday");
-            break;
-        case 2:prntf("Tuesday");
-            break;
+        case 1:printf("Monday");break;
+        case 2:prntf("Tuesday");break;
         case 3:printf("Wednesday");break;
         case 4:printf("Thursday");break;
         case 5:printf("Friday");break;
