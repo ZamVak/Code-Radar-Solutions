@@ -13,12 +13,13 @@ int main() {
             printf("*");
         }
         printf("\n");
-        if(i<=n && half==0){
+        if(i<=n && half==0)
             ++i;
-            half=1;
-        }
         else
             --i;
+        if(i>=n)
+            high=1;
+        
     }
     // for(int i=1;i<=n;i++){
     //     for(int s=1;s<=n-i;s++){
