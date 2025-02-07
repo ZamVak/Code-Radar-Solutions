@@ -18,7 +18,7 @@ int main() {
         else
             --i;
         if(i>=n)
-            high=1;
+            half=1;
         
     }
     // for(int i=1;i<=n;i++){
