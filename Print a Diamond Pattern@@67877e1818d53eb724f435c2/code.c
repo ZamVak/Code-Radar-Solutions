@@ -4,6 +4,7 @@ int main() {
     int n;
     scanf("%d",&n);
     int i=1;
+    int half=0;
     while(i>0){
         for(int s=1;s<=n-i;s++){
             printf(" ");
@@ -12,8 +13,10 @@ int main() {
             printf("*");
         }
         printf("\n");
-        if(i<=n)
+        if(i<=n && half==0){
             ++i;
+            half=1;
+        }
         else
             --i;
     }
