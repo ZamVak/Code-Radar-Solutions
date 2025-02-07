@@ -13,7 +13,13 @@ int main() {
         printf("\n");
     }
     for(int i=n-1;i>=1;i--){
-        printf("u");
+        for(int s=1;s<=n-i;s++){
+            printf(" ");
+        }
+        for(int j=1;j<=i+(i-1);j++){
+            printf("*");
+        }
+        printf("*");
     }
     return 0;
 }
