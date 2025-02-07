@@ -12,8 +12,8 @@ int main() {
         }
         printf("\n");
     }
-    for(i=n-1;i>=1;i--){
-        printf("u");
-    }
+    // for(i=n-1;i>=1;i--){
+    //     printf("u");
+    // }
     return 0;
 }
