@@ -7,7 +7,7 @@ int main() {
         for(int s=1;s<=n-i;s++)
             printf(" ");
         int j=1,half=0;
-        while(j>0){
+        while(j<=i){
             printf("%d",j);
             if(j<=i && half==0)
                 ++j;
