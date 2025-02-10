@@ -3,7 +3,8 @@
 int main() {
     char str[100];
     char str2[100];
-    scanf("%99s[^\n] %99s[^\n]",str,str2);
+    scanf("%99s[^\n]",str);
+    scanf("%99s[^\n]",str2);
     printf("%s and %s",str,str2);
     return 0;
 }
