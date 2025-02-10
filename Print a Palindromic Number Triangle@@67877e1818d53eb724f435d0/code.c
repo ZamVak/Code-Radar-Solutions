@@ -9,7 +9,7 @@ int main() {
         int j=1,half=0;
         while(j>0){
             printf("%d",j);
-            if(j<=i && half=0)
+            if(j<=i && half==0)
                 ++j;
             else
                 --j;
