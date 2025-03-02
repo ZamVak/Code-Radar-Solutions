@@ -1,10 +1,16 @@
 // Your code here...
 void bubbleSort(int arr[],int l){
-    for(int j=0;j<l;j++){
+    for(int j=0;j<l-1;j++){
         if(arr[j]>arr[j+1]){
             int t=arr[j];
             arr[j]=arr[j+1];
             arr[j+1]=t;
         }
+    }
+}
+
+void printArray(int arr[],int n){
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
     }
 }
