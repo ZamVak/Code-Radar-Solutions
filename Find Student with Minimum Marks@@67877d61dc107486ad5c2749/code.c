@@ -10,13 +10,13 @@ int main(){
     int n;
     scanf("%d",&n);
     struct Student students[n];
-    int maxIndex=0;
+    int minIndex=0;
 
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&students[i].rollNumber, &students[i].name ,&students[i].marks);
         if(i>=1){
-            if(students[i].marks<students[maxIndex].marks)
-                maxIndex=i;
+            if(students[i].marks<students[minIndex].marks)
+                minIndex=i;
         } 
     }
 
