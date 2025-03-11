@@ -20,7 +20,7 @@ int main(){
         } 
     }
 
-    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f\n",students[maxIndex].rollNumber, students[maxIndex].name, students[maxIndex].marks);
+    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f\n",students[minIndex].rollNumber, students[minIndex].name, students[minIndex].marks);
 
     return 0;
 }
