@@ -29,7 +29,6 @@ int main(){
                 arr[j].marks=arr[j+1].marks;
 
                 arr[j+1].roll=troll;
-                arr[j+1].name=tname;
                 strcpy(arr[j+1].name,tname);
                 arr[j+1].marks=tmarks;
                 
