@@ -1,4 +1,4 @@
-#include <stdin.h>
+#include <stdio.h>
 
 struct students{
     int roll;
