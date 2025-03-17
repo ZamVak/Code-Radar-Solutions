@@ -2,8 +2,8 @@
 #include <string.h>
 
 struct Rectangle{
-    int length;
-    int breadth;
+    float length;
+    float breadth;
 };
 
 int main(){
@@ -13,7 +13,7 @@ int main(){
     struct Rectangle arr[N];
 
     for(int i=0;i<N;i++){
-        scanf("%d %d",&arr[i].length,&arr[i].breadth);
+        scanf("%f %f",&arr[i].length,&arr[i].breadth);
     }
 
     for(int i=0;i<N;i++){
