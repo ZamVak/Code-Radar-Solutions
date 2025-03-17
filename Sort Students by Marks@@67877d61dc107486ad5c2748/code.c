@@ -20,22 +20,24 @@ int main(){
         for(int j=0;j<N-i-1;j++){
             if(arr[j].marks<arr[j+1].marks){
                 int troll=arr[j].roll;
-                char tname[50]=arr[j].name;
+                char tname[50];
+                strcpy(tname,arr[j].name);
                 float tmarks=arr[j].marks;
 
                 arr[j].roll=arr[j+1].roll;
-                arr[j].name=arr[j+1].name;
+                strcpy(arr[j].name,arr[j+1].name);
                 arr[j].marks=arr[j+1].marks;
 
                 arr[j+1].roll=troll;
                 arr[j+1].name=tname;
+                strcpy(arr[j+1].name,tname);
                 arr[j+1].marks=tmarks;
                 
             }
         }
     }
 
-    for(int i=0;i<n;i++){
+    for(int i=0;i<N;i++){
         printf("Roll Number: %d, Name: %s, Marks: %.2f\n",&arr[i].roll,&arr[i].name,&arr[i].marks);
     }
     return 0;
