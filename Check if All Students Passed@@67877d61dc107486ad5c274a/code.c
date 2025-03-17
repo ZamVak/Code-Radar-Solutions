@@ -17,6 +17,7 @@ int main(){
         scanf("%d %s %f",&arr[i].roll,&arr[i].name,&arr[i].marks);
         if(arr[i].marks<50){
             allPassed=0;
+            break;
         }
     }
 
