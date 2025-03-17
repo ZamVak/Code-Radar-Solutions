@@ -3,7 +3,7 @@
 
 struct Rectangle{
     int length;
-    int bredth;
+    int breadth;
 };
 
 int main(){
