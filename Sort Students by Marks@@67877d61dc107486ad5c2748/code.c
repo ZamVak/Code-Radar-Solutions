@@ -4,7 +4,7 @@ struct students{
     int roll;
     char name[50];
     float marks;
-}
+};
 
 int main(){
     int N;
