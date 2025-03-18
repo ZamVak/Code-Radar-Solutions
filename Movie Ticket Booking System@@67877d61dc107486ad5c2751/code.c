@@ -11,7 +11,7 @@ int main(){
     int N;
     scanf("%d",&N);
     float stan=0,prem=0,VIP=0;
-    struct Vehicle arr[N];
+    struct Tickets arr[N];
 
     for(int i=0;i<N;i++){
         scanf("%s %s %f",&arr[i].name,&arr[i].type,&arr[i].price);
