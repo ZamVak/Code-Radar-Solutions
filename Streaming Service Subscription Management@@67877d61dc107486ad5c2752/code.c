@@ -24,6 +24,6 @@ int main(){
             {basic+=arr[i].price;++bc;}
     }
 
-        printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",sc,stan,pc,prem,bc,basic);
+        printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",bc,basic,sc,stan,pc,prem);
     return 0;
 }
