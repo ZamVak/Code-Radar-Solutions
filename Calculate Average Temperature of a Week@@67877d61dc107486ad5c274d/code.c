@@ -13,6 +13,7 @@ int main(){
         fgets(arr[i].day,50,stdin);
         scanf("%f",&arr[i].temp);
         avg+=arr[i].temp;
+        printf("%f",avg);
     }
     avg/=7;
     printf("Average Temperature: %.2f",&avg);
