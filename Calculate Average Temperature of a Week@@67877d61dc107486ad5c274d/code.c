@@ -15,7 +15,7 @@ int main(){
         avg+=arr[i].temp;
         printf("avg= %f\n",avg);
     }
-    avg/=7;
+    avg=avg/7;
     printf("Average Temperature: %.2f",&avg);
     return 0;
 }
