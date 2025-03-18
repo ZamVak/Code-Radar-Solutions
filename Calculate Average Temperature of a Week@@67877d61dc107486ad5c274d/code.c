@@ -12,9 +12,9 @@ int main(){
     for(int i=0;i<7;i++){
         fgets(arr[i].day,50,stdin);
         scanf("%d",&arr[i].temp);
-        printf("%d",arr[i].temp);
+        printf("inp= %d\n",arr[i].temp);
         avg+=arr[i].temp;
-        printf("%f",avg);
+        printf("avg= %f\n",avg);
     }
     avg/=7;
     printf("Average Temperature: %.2f",&avg);
