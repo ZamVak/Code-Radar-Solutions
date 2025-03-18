@@ -16,6 +16,6 @@ int main(){
         printf("avg= %f\n",avg);
     }
     avg=avg/7;
-    printf("Average Temperature: %.2f",&avg);
+    printf("Average Temperature: %.2f",avg);
     return 0;
 }
