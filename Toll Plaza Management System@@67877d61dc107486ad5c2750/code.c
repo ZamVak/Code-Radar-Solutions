@@ -14,8 +14,8 @@ int main(){
     struct Vehicle arr[N];
 
     for(int i=0;i<N;i++){
-        scanf("%s %s %d",&arr[i].number,&arr[i].type,&arr[i].toll);
-
+        scanf("%s %s %f",&arr[i].number,&arr[i].type,&arr[i].toll);
+        printf("%s\n",arr[i].type);
         if(arr[i].type=="Car")
             car+=arr[i].toll;
         else if(arr[i].type=="Truck")
