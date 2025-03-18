@@ -12,7 +12,7 @@ int main(){
     for(int i=0;i<7;i++){
         fgets(arr[i].day,50,stdin);
         scanf("%d",&arr[i].temp);
-        printf("inp= %s %d\n",arr[i].day,arr[i].temp);
+        printf("inp= %s %d\n","zamaam",arr[i].temp);
         avg+=arr[i].temp;
         printf("avg= %f\n",avg);
     }
