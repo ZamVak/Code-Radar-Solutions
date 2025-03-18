@@ -16,9 +16,9 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%s %s %f",&arr[i].number,&arr[i].type,&arr[i].toll);
         printf("%s\n",arr[i].type);
-        if(arr[i].type=="Car")
+        if(strcmp(arr[i].type,"Car")==0)
             car+=arr[i].toll;
-        else if(arr[i].type=="Truck")
+        else if(strcmp(arr[i].type,"Truck")==0)
             truck+=arr[i].toll;
         else
             bike+=arr[i].toll;
