@@ -19,15 +19,19 @@ int print_frequnecy(int n,int arr[]){
 
     int current=arr[0];
     int count=1;
+    int allsame=1;
    for (int i=0;i<n-1;i++){
     if(arr[i+1]==current)
         count++;
     else{
+        allsame=0;
         printf("%d %d\n",current,count);
         count=1;
         current=arr[i+1];
     }
    }
+   if(allsame)
+    printf("%d %d\n",current,count);
    if(arr[n-1]!=arr[n-2]){
     printf("%d 1",arr[n-1]);
    }
