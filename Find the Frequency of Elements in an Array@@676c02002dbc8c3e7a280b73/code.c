@@ -24,7 +24,7 @@ int print_frequnecy(int n,int arr[]){
     }
    }
    if(arr[n-1]!=arr[n-2]){
-    printf("%d 1",arr[n-1])
+    printf("%d 1",arr[n-1]);
    }
 }
 
