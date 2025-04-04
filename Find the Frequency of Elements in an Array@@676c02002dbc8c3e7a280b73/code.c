@@ -11,6 +11,12 @@ int print_frequnecy(int n,int arr[]){
         }
     }
    }
+
+    for(int i=0;i<n;i++)
+        printf("%d ",arr[i]);
+    printf("\n");
+
+
     int current=arr[0];
     int count=0;
    for (int i=0;i<n-1;i++){
