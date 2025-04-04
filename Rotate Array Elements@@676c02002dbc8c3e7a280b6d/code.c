@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-void rotateArray(int arr[],int k){
+void rotateArray(int *arr,int k){
     printf("%d",arr[0]);
 }
 
