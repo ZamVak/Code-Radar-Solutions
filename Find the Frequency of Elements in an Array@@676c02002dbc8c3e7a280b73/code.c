@@ -14,12 +14,17 @@ int print_frequnecy(int n,int arr[]){
     int current=arr[0];
     printf("%d ",current);
     int count=0;
-   for (int i=0;i<n;i++){
-    if(arr[i]==current)
-        c++;
+   for (int i=0;i<n-1;i++){
+    if(arr[i+1]==current)
+        count++;
     else{
-        
+        printf("%d %d",current,count);
+        count=1;
+        current=arr[i+1];
     }
+   }
+   if(arr[n-1]!=arr[n-2]){
+    printf("%d 1",arr[n-1])
    }
 }
 
