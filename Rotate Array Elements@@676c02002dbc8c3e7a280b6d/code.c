@@ -2,7 +2,7 @@
 #include <stdio.h>
 void rotateArray(int n,int arr[],int k){
 
-   for(int i=1;i<n,i++){
+   for(int i=1;i<n;i++){
     int temp=arr[i];
     arr[i]=arr[0];
     arr[0]=temp;
