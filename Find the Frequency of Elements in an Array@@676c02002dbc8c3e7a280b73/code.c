@@ -18,7 +18,7 @@ int print_frequnecy(int n,int arr[]){
     if(arr[i+1]==current)
         count++;
     else{
-        printf("%d %d",current,count);
+        printf("%d %d\n",current,count);
         count=1;
         current=arr[i+1];
     }
