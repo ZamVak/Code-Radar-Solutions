@@ -1,13 +1,13 @@
 // Your code here...
 #include <stdio.h>
 void rotateArray(int n,int arr[],int k){
-
+   for(int j=1;j<=k;j++){
    for(int i=1;i<n;i++){
     int temp=arr[i];
     arr[i]=arr[0];
     arr[0]=temp;
    }
-   printf("%d %d",arr[0],arr[1]);
+   }
 }
 
 int main(){
@@ -19,4 +19,7 @@ int main(){
     scanf("%d",&k);
     rotateArray(n,arr,k);
 
+    for(int i=0;i<n;i++){
+        printf("%d\n",arr[i]);
+    }
 }
