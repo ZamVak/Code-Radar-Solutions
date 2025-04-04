@@ -30,7 +30,7 @@ int print_frequnecy(int n,int arr[]){
         current=arr[i+1];
     }
    }
-   if(allsame)
+   if(allsame && n!=1)
     printf("%d %d\n",current,count);
    if(arr[n-1]!=arr[n-2]){
     printf("%d 1",arr[n-1]);
