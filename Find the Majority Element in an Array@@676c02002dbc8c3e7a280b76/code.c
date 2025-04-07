@@ -12,7 +12,7 @@ int majorityElem(int n,int arr[]){
    }
    int i=0;
     while(i<n){
-        int count=1,current=arr[i];;
+        int count=1,current=arr[i];
         for(int j=i+1;j<n;j++){
             if(arr[j]==current)
                 ++count;
