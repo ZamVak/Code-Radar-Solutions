@@ -12,13 +12,15 @@ int majorityElem(int n,int arr[]){
    }
    int i=0;
     while(i<n){
-        int count=1,current=arr[i];
+        int count=1,current=arr[i],broken=0;;
         for(int j=i+1;j<n;j++){
             if(arr[j]==current)
                 ++count;
-            else
+            else{
                 i=j;
+                // broken=1;
                 break;
+            }
         }
         if(count > (n/2))
             return current;
