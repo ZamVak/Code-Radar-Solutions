@@ -1,6 +1,10 @@
 // Your code here...
 #include <stdio.h>
 int secondMax(int n,int arr[]){
+    if(n<2){
+        return -1;
+    }
+
     int max,secMax;
     if(arr[0]>=arr[1]){
         max=arr[0];
@@ -21,7 +25,10 @@ int secondMax(int n,int arr[]){
             secMax=arr[i];
         else{}
     }
-    return secMax;
+    if(secMax==max)
+        return -1;
+    else
+        return secMax;
 }
 
 int main(){
